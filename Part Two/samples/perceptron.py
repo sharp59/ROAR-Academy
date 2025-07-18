@@ -8,14 +8,13 @@
 # python -m pip install --upgrade pip
 # python -m pip install tensorflow==2.10
 
-import keras
 from keras.models import Sequential
 from keras.layers import Dense
 import numpy as np
 import matplotlib.pyplot as plt
 from keras.activations import sigmoid
 
-linearSeparableFlag = True
+linearSeparableFlag = False
 x_bias = 0
 
 def toy_2D_samples(x_bias ,linearSeparableFlag):
